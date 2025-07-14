@@ -1,12 +1,35 @@
-# React + Vite
+# ❓ Interactive Quiz Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A dynamic 10-question quiz application built with **React + Vite**. Features difficulty selection and auto-timed questions.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Welcome screen to select difficulty (easy, medium, hard)
+- 10 questions per game
+- 10 seconds per question, auto-skips if time runs out
+- Final score display at the end
 
-## Expanding the ESLint configuration
+## 🛠️ Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- CSS / Tailwind CSS
+- Open Trivia API (if used)
+- React Hooks (`useState`, `useEffect`, `useRef`)
+
+## 📦 Installation
+
+```bash
+npm install
+npm run dev
+```
+
+Visit: `http://localhost:5173`
+
+## 📸 Screenshots
+
+(Add screenshots here if needed)
+
+## 👨‍💻 Author
+
+Made with ❤️ by Anshu Patel
